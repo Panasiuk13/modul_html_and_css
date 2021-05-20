@@ -1,0 +1,41 @@
+*{
+    /*color: yellow !important;*/
+}
+
+div {
+    background: rgba(56, 85, 240, 0.7); /*000 black:255.255.255 white все цвета до 255байт*/
+    font-weight: 700;
+
+    font-size: 30px;
+    /*ширина*/
+    width: 50vw;
+    /*высота*/
+    height: 70vh;
+
+    /*wmax === vw; vmin === vh*/
+
+    /*фон url*/
+    background: url("https://media-exp1.licdn.com/dms/image/C561BAQEZ1vlF7UlI8w/company-background_10000/0/1535744558655?e=2159024400&v=beta&t=p3LFK_gQ39r70HCiA-vl_9aeiSfPxBrQ1vCIPY7GeMc");
+}
+.text{
+    width: 90%;
+    text-align: center;
+    font-size: 35px;
+}
+#text{
+    width: 20%;
+    text-align: left;
+    font-size: 15px;
+}
+[type]{
+    color: blue;
+}
+.cat p a{
+    color: red;
+}
+.cat>div>div{
+    heigth:40%
+}
+.cat>p{
+    background: tomato;
+}
