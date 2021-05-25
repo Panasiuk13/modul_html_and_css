@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+.window{
+    line-height: 10px;
+    white-space: pre-wrap;
+    width: 240px;
+    height: 150px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    position: absolute;
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+.fixed{
+    z-index: 5;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+span {
+    margin-left: 200px;
+    white-space: pre-wrap;
+}
+#text{
+    font-size: 24px;
+    font-family: "Times New Roman";
+    margin-right: 50px;
+}
+#text_1{
+    position: relative;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    border: 2px solid whitesmoke;
+    height: 30px;
+    width: 235px;
+}
+#text_2{
+    margin-left: 220px;
+    margin-top: -20px;
+}
