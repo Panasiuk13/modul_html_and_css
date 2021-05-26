@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 500px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.float img{
+    width: 250px;
+    float: left;
+}
+.float .clear{
+    clear: left;
+}
+/*псевдоклассы*/
+.pseudo .visited:visited{
+    color: red;
+
+}
+
+.pseudo .link:link{
+    color: gold;
+}
+
+.pseudo . hover:hover{
+    color:  green;
+}
+
+.form [type=checkbox]:checked ~ .check{/*обращение по атрибуту*/
+    color: gold;
+}
+
+.form [type=text]:focus {
+    border: 3px solid green;
+}
+
+.practic label{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+}
+
+.practic input:checked ~ label{
+    background: green;
+}
+
+.practic input{
+    display: none;
+}
+
+.elements p:first-child{
+color: red;
+}
+
+.elements p:last-child{
+    color: green;
+}
+
+.elements p:nth-child(4){
+    color: yellow;
+}
+
+.elements p:nth-child(3n){
+    color: orange;
+}
+ .elements p:only-child{
+     font-size: 20px;
+ }
+
+ .elements p:not(.paragraph){
+    font-weight: bold;
+ }
+
+/*псевдоэлементы*/
+.pseudo-elements{
+    padding: 30px;
+}
+.after{
+    width: 30px;
+    height: 30px;
+    background: green;
+}
+
+.after::after{
+    content: "<";
+    width: 10px;
+    font-size: 10px;
+    line-height: 1;
+    /*height: 10px;*/
+    background: gold;
+    position: relative;
+    top: 50%;
+    margin-top: -5px;
+    right: -15px;
+}
+
+.after::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    line-height: 1;
+    background: gold;
+    position: relative;
+    top: 50%;
+    margin-top: -5px;
+    leftt: -15px;
+}
+
+.table tr td{
+    padding:10px ;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table p{
+    color: red;
+}
+
+table .row p {
+    color: green;
+}
+
+table .row p {
+    color: green;!important;
+}
