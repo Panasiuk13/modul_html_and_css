@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+.loding{
+    white-space: nowrap;
+    width: 240px;
+    height: 20px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    border: 1px solid #b3d4fc;
+
+}
+.colorblock {
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    margin-right: 17%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fixed{
+    z-index: 5;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.procent{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    top: 8px;
+    bottom: 0;
+    left: 100px;
+    right: 100px;
+}
