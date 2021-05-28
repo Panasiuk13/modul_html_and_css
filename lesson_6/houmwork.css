@@ -1,0 +1,7 @@
+.form [type=checkbox]:checked ~ .check{/*обращение по атрибуту*/
+    color: mediumvioletred;
+}
+
+.form [type=text]:focus {
+    border: 3px solid black;
+}
