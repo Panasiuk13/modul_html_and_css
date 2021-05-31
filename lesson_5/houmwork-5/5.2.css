@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,7 @@ body{
     position: relative;
 }
 
-.loding{
+/*.loding{
     white-space: nowrap;
     width: 240px;
     height: 20px;
@@ -19,8 +19,8 @@ body{
     position: relative;
     border: 1px solid #b3d4fc;
 
-}
-.colorblock {
+}*/
+/*.colorblock {
     background-color: cornflowerblue;
     position: absolute;
     width: 200px;
@@ -34,6 +34,10 @@ body{
 }
 
 .fixed{
+    white-space: nowrap;
+    width: 240px;
+    height: 20px;
+    border: 1px solid #b3d4fc;
     z-index: 5;
     position: fixed;
     margin: auto;
@@ -54,4 +58,33 @@ body{
     bottom: 0;
     left: 100px;
     right: 100px;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.progress-bar{
+    width: 350px;
+    height: 50px;
+    border: 2px solid rgb(3, 88, 145);
+    position: relative;
+}
+
+.colorblock{
+    width: 50%;
+    height: 100%;
+    background: rgb(3, 88, 145);
+}
+
+.procent{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 12.5px;
 }
