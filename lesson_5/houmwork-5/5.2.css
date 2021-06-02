@@ -1,44 +1,12 @@
-/**{
+{
     margin: 0;
     padding: 0;
 }
 
-body{
-    position: relative;
-}
-
-/*.loding{
-    white-space: nowrap;
-    width: 240px;
-    height: 20px;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: relative;
-    border: 1px solid #b3d4fc;
-
-}*/
-/*.colorblock {
-    background-color: cornflowerblue;
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    margin: auto;
-    margin-right: 17%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.fixed{
-    white-space: nowrap;
-    width: 240px;
-    height: 20px;
-    border: 1px solid #b3d4fc;
-    z-index: 5;
+.progress-bar{
+    width: 350px;
+    height: 50px;
+    border: 2px solid rgb(41, 158, 187);
     position: fixed;
     margin: auto;
     top: 0;
@@ -47,38 +15,13 @@ body{
     right: 0;
 }
 
-.procent{
-    font-family: "Times New Roman";
-    font-size: 14px;
-    width: 240px;
-    height: 20px;
-    position: absolute;
-    margin: auto;
-    top: 8px;
-    bottom: 0;
-    left: 100px;
-    right: 100px;
-}*/
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.progress-bar{
-    width: 350px;
-    height: 50px;
-    border: 2px solid rgb(3, 88, 145);
-    position: relative;
-}
-
 .colorblock{
-    width: 50%;
+    width: 72%;
     height: 100%;
-    background: rgb(3, 88, 145);
+    background: rgba(17, 103, 99, 0.89);
 }
 
-.procent{
+.progress-bar__procent{
     width: 100%;
     text-align: center;
     font-size: 25px;
@@ -88,3 +31,4 @@ body{
     position: absolute;
     top: 12.5px;
 }
+
