@@ -1,4 +1,5 @@
-.form [type=checkbox]:checked ~ .check{
+.form [type=checkbox]:checked ~ .check {
     color: mediumvioletred;
+    visibility: hidden;
 }
 

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa3bf2b-08b0-4a53-b450-241998936bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_8/loyat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_8/loyat/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_6/houmwork/houmwork.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/houmwork/houmwork.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,26 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_8/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_8/loyat/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding>
-                <element signature="e#694#700#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_8/style1.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_8/loyat/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-              <folding>
-                <element signature="e#35#8957#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="151">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -59,13 +56,15 @@
         <option value="$PROJECT_DIR$/lesson_5/houmwork-5/houmwork-5.1.html" />
         <option value="$PROJECT_DIR$/lesson_7/loyat/style.css" />
         <option value="$PROJECT_DIR$/lesson_7/loyat/index.html" />
-        <option value="$PROJECT_DIR$/lesson_6/houmwork/houmwork.css" />
-        <option value="$PROJECT_DIR$/lesson_6/houmwork/houmwork-6.html" />
         <option value="$PROJECT_DIR$/lesson_5/houmwork-5/houmwork-5.2.html" />
         <option value="$PROJECT_DIR$/lesson_5/houmwork-5/5.2.css" />
         <option value="$PROJECT_DIR$/lesson_7/index.html" />
         <option value="$PROJECT_DIR$/lesson_8/style1.css" />
         <option value="$PROJECT_DIR$/lesson_8/index.html" />
+        <option value="$PROJECT_DIR$/lesson_6/houmwork/houmwork.css" />
+        <option value="$PROJECT_DIR$/lesson_6/houmwork/houmwork-6.html" />
+        <option value="$PROJECT_DIR$/lesson_8/loyat/index.html" />
+        <option value="$PROJECT_DIR$/lesson_8/loyat/style.css" />
       </list>
     </option>
   </component>
@@ -102,7 +101,24 @@
             <path>
               <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
               <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_7" type="462c0819:PsiDirectoryNode" />
+              <item name="loyat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_8" type="462c0819:PsiDirectoryNode" />
+              <item name="loyat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,12 +163,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622458062339</updated>
-      <workItem from="1622458071051" duration="17642000" />
+      <workItem from="1622458071051" duration="29265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17642000" />
+    <option name="totallyTimeSpent" value="29265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -165,7 +181,7 @@
       <window_info anchor="bottom" id="Floobits" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -185,13 +201,6 @@
     <entry file="file://$PROJECT_DIR$/lesson_5/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_6/houmwork.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -202,34 +211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/loyat/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/lesson_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/loyat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_6/houmwork/houmwork.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -260,16 +241,6 @@
     <entry file="file://$PROJECT_DIR$/lesson_7/style1.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_6/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_6/houmwork/houmwork-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_8/style1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -287,6 +258,76 @@
           <folding>
             <element signature="e#694#700#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/lesson_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="6" selection-start-line="29" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="47" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/houmwork/houmwork.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/houmwork/houmwork-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/loyat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/loyat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/loyat/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/loyat/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
