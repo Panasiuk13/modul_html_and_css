@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.blocks{
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 454px;
+    height: 454px;
+
+
+}
+.block__item{
+    background-image: url("https://st2.depositphotos.com/1007034/6626/i/950/depositphotos_66269203-stock-photo-happy-women-surrounded-by-gifts.jpg");
+    background-position: top;
+    border: 2px solid grey;
+    color: #ffff;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    order: 1;
+
+}
+
+.block__link{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
