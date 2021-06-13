@@ -4,76 +4,57 @@
 
 }
 
-p {
-    font-size: 12px;
-    font-weight: initial;
-    color: black;
-}
 
 .blocks{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
     width: 100%;
-    position: fixed;
+    height: 150px;
     display: flex;
-    align-content: space-between;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 50px 50px 50px 50px;
-}
+    flex-wrap: wrap;
+    }
 
 
 .block__gift{
-     font-size: 16px;
-     font-weight: bold;
-     width: 100px;
-     height: 100px;
-     color: brown;
-     padding: 80px 75px 80px 75px;
-     white-space: pre-wrap;
-     text-align: left;
+     width: 25%;
+     height: 150px;
      background-image: url("https://i.ytimg.com/vi/VGun9WovtvU/maxresdefault.jpg");
-    background-position: bottom;
-    background-size: cover;
+     background-position: center;
+     background-size: cover;
 }
 
 .block__colon{
-    width: 190px;
+    width: 25%;
     height: 150px;
-    color: brown;
-    padding: 50px;
     background-image: url("http://img.mobihobby.ru/article/view_b/416b3c08b600c34e6bcda270d80addf4_cdfe85487c.jpg");
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    align-items: flex-start;
+
 }
 
 
 .block__cat{
-    width: 170px;
+    width: 25%;
     height: 150px;
-    color: brown;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-image: url("https://www.belanta.vet/vet-blog/wp-content/uploads/2019/12/3-9.jpg");
-    align-items: flex-start;
+
 }
 
 .block__coffee{
-    width: 100px;
+    width: 25%;
     height: 150px;
-    font-size: 16px;
-    color: brown;
-    padding: 80px 75px;
     background-position: center;
-    background-image: url("https://doma.by/upload/iblock/120/w37000605-b.jpg");
     background-size: cover;
+    background-image: url("https://podaro4ek.by/images/stories/virtuemart/product/kofemolka-ruchnaya-cafe-3.jpg");
+
 }
 
 .block__jump{
-    width: 150px;
+    width: 25%;
     height: 150px;
-    color: brown;
     background-position: center;
     background-size: cover;
     background-image: url("https://ami.by/images/catalogue/items/trampoline-jump-inside-0.jpg");
@@ -81,11 +62,34 @@ p {
 }
 
 .block__forest{
-    width: 150px;
+    width: 25%;
     height: 150px;
-    color: brown;
     background-position: center;
     background-size: cover;
     background-image: url("https://amihome.by/upload/resize_cache/iblock/14b/340_190_040cd750bba9870f18aada2478b24840a/1.jpg");
 
+}
+
+.block__honor{
+    width: 25%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCIIUkwCgpkFSlslp14HwVXmnwvlQQj5t04Q&usqp=CAU");
+
+}
+
+.block__tables{
+    width: 25%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://kovkam.by/wp-content/uploads/2019/04/jurnalnie-stoliki-loft.jpg");
+
+}
+
+p {
+    font-size: 14px;
+    font-weight: initial;
+    color: black;
 }
