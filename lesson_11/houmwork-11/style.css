@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fencer{
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    background-image: url("img/isolated-fencer-boy-sports-icon-260nw-1798453300 (1).jpg");
+    background-size: cover;
+    background-position: center;
+
+
+    transform: rotate(0deg) scale(1) translate(100px, 50px) skew(0deg);
+    transform-origin: left bottom;
+
+    animation: infinite;
+
+    color: red;
+    transition: color 1s ease-in-out 0.5s;
+}
+
+.fencer_1{
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    background-image: url("img/isolated-fencer-boy-sports-icon-260nw-1798453300 2.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+    transform: rotate(0deg) scale(1) translate(100px, 50px) skew(0deg);
+    transform-origin: right bottom;
+
+    animation: infinite;
+
+    color: red;
+    transition: color 1s ease-in-out 0.5s;
+}
+
