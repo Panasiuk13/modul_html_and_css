@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa3bf2b-08b0-4a53-b450-241998936bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_11/houmwork-11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_11/houmwork-11/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_11/houmwork-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11/houmwork-11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_11/houmwork-11/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11/houmwork-11/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_11/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/asseds/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/asseds/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
     </list>
@@ -20,28 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/index.html">
+        <entry file="file://$PROJECT_DIR$/project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-69">
+              <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_11/style.css">
+        <entry file="file://$PROJECT_DIR$/project/asseds/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="31" column="53" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="-2908">
+              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,8 +41,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_11/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_11/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="53" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -93,10 +112,10 @@
         <option value="$PROJECT_DIR$/project/asseds/js/main.js" />
         <option value="$PROJECT_DIR$/lesson_9/houmwork-9/index.html" />
         <option value="$PROJECT_DIR$/lesson_9/houmwork-9/style.css" />
-        <option value="$PROJECT_DIR$/lesson_11/index.html" />
         <option value="$PROJECT_DIR$/lesson_11/style.css" />
         <option value="$PROJECT_DIR$/project/index.html" />
         <option value="$PROJECT_DIR$/project/asseds/css/style.css" />
+        <option value="$PROJECT_DIR$/lesson_11/index.html" />
         <option value="$PROJECT_DIR$/lesson_11/houmwork-11/index.html" />
         <option value="$PROJECT_DIR$/lesson_11/houmwork-11/style.css" />
       </list>
@@ -125,12 +144,6 @@
               <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
               <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="modul_html_and_css" type="b2602c69:ProjectViewProjectNode" />
-              <item name="modul_html_and_css" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson_11" type="462c0819:PsiDirectoryNode" />
-              <item name="houmwork-11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,18 +195,18 @@
       <workItem from="1623436518537" duration="4998000" />
       <workItem from="1623517691408" duration="3210000" />
       <workItem from="1623686186762" duration="9358000" />
-      <workItem from="1623778391549" duration="9013000" />
+      <workItem from="1623778391549" duration="15960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106522000" />
+    <option name="totallyTimeSpent" value="113469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14657739" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13616072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Floobits" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49898785" weight="0.3255814" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49898785" weight="0.32246378" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50101215" side_tool="true" weight="0.3292978" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,20 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/asseds/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_9/houmwork-9/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -409,31 +408,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/asseds/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2908">
+          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_11/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="527">
+          <caret line="34" column="53" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_11/houmwork-11/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="242">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
