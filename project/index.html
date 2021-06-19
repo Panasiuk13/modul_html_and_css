@@ -1,46 +1,60 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="asseds/css/style.css">
-    <link rel="stylesheet" href="asseds/css/reset.css>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="asseds/css/reset.css">
+    <link rel="stylesheet" href="asseds/css/style.css">
 </head>
 <body>
 <header class="header">
     <div class="logo">
-           <img class="logo__company" src="asseds/img/logo.svg">
+        <img class="logo__company" src="asseds/img/logo.svg" alt="">
     </div>
-    <div class="header__wrapper">
-  <nav class="menu">
-      <ul class="menu__list">
-          <li class="menu__item">Главная<a class="menu__link" href="#"></a></li>
-          <li class="menu__item">Курсы<a class="menu__link" href="#"></a></li>
-          <li class="menu__item">Расписание<a class="menu__link" href="#"></a></li>
-          <li class="menu__item">Преподаватели<a class="menu__link" href="#"></a></li>
-          <li class="menu__item">Рассылка<a class="menu__link" href="#"></a></li>
-          <li class="menu__item">Контакты<a class="menu__link" href="#"></a></li>
-      </ul>
-  </nav>
 
-    <button class="button button--call">
-        Зайти в кабинет
-    </button>
+    <div class="header__wrapper">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Курсы</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Расписание</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Преподаватели</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Рассылка</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="button button--call">
+            Зайти в кабинет
+        </button>
+
         <div class="burger-box">
             &#9776;
         </div>
     </div>
 </header>
+
 <main>
     <section class="section first-screen">
         <div class="first-screen__wrapper">
-        <h1 class="first-screen__title">
-            <p>Первый курс</p>
-            <p>по компьютерной сборке</p>
-        </h1>
+            <h1 class="first-screen__title">
+                <p>Первый курс</p>
+                <p>по компьютерной сборке</p>
+            </h1>
+
             <div class="timer">
                 <div class="timer__item">
                     <p class="timer__count">18</p>
@@ -67,13 +81,13 @@
             <button class="button button--substribe">Заказать курс</button>
         </div>
         <table class="table-count">
-            <tr>
-                <td class="table-count__name">Учеников всего:</td>
-                <td class="table-count__result">200</td>
+            <tr class="table-count__row">
+                <td class="table-count__col table-count__name">Учеников всего:</td>
+                <td class="table-count__col table-count__result">200</td>
             </tr>
-            <tr>
-                <td class="table-count__name">Успешно закончили курс:</td>
-                <td class="table-count__result">190</td>
+            <tr class="table-count__row">
+                <td class="table-count__col table-count__name">Успешно закончили курс:</td>
+                <td class="table-count__col table-count__result">190</td>
             </tr>
         </table>
 
@@ -94,8 +108,70 @@
             </div>
         </div>
     </section>
+
+    <section class="section about">
+        <div class="about__wrapper">
+            <img class="about__computer" src="asseds/img/about__img.png" alt="">
+        </div>
+        <div class="about__text">
+            <h2 class="about__title title">Чем мы занимаемся?</h2>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis.
+            </p>
+        </div>
+    </section>
+
+    <section class="section fast-start">
+        <div class="icon">
+            <img class="icon__circle" src="asseds/icon/icon.png" alt="">
+            <h2 class="title">Быстрый старт</h2>
+        </div>
+        <div class="fast-start__subtitle description description--opacity-5">
+            Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+        </div>
+
+        <div class="scale">
+            <div class="scale__item">
+                <p class="scale__precent">100%</p>
+                <div class="scale__wrapper">
+                    <div class="scale__progress scale__progress-full"></div>
+                </div>
+                <p class="scale__desc description description--opacity-5 description--small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </p>
+            </div>
+            <div class="scale__item">
+                <p class="scale__precent">75%</p>
+                <div class="scale__wrapper">
+                    <div class="scale__progress scale__progress--revers scale__progress-quarter"></div>
+                </div>
+                <p class="scale__desc description description--opacity-5 description--small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </p>
+            </div>
+            <div class="scale__item">
+                <p class="scale__precent">50%</p>
+                <div class="scale__wrapper">
+                    <div class="scale__progress scale__progress-half"></div>
+                </div>
+                <p class="scale__desc description description--opacity-5 description--small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </p>
+            </div>
+            <div class="scale__item">
+                <p class="scale__precent">Итог</p>
+                <div class="scale__wrapper">
+                    <div class="scale__progress scale__progress--revers scale__progress-total"></div>
+                </div>
+                <p class="scale__desc description description--opacity-5 description--small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </p>
+            </div>
+        </div>
+    </section>
 </main>
 <footer></footer>
+
 <script src="asseds/js/main.js"></script>
 </body>
 </html>
