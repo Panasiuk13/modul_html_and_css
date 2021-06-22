@@ -5,7 +5,7 @@
 }
 
 
-.blocks{
+.blocks__wrapper{
     font-size: 20px;
     font-weight: bold;
     color: black;
@@ -16,7 +16,7 @@
     }
 
 
-.block__gift{
+.gift{
      width: 25%;
      height: 150px;
      background-image: url("https://i.ytimg.com/vi/VGun9WovtvU/maxresdefault.jpg");
@@ -24,7 +24,7 @@
      background-size: cover;
 }
 
-.block__colon{
+.colon{
     width: 25%;
     height: 150px;
     background-image: url("http://img.mobihobby.ru/article/view_b/416b3c08b600c34e6bcda270d80addf4_cdfe85487c.jpg");
@@ -34,7 +34,7 @@
 }
 
 
-.block__cat{
+.cat{
     width: 25%;
     height: 150px;
     background-position: center;
@@ -43,7 +43,7 @@
 
 }
 
-.block__coffee{
+.coffee{
     width: 25%;
     height: 150px;
     background-position: center;
@@ -52,7 +52,7 @@
 
 }
 
-.block__jump{
+.jump{
     width: 25%;
     height: 150px;
     background-position: center;
@@ -61,7 +61,7 @@
 
 }
 
-.block__forest{
+.forest{
     width: 25%;
     height: 150px;
     background-position: center;
@@ -70,7 +70,7 @@
 
 }
 
-.block__honor{
+.honor{
     width: 25%;
     height: 150px;
     background-position: center;
@@ -79,7 +79,7 @@
 
 }
 
-.block__tables{
+.tables{
     width: 25%;
     height: 150px;
     background-position: center;
