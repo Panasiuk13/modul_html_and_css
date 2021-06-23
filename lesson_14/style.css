@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+     display: grid;
+    grid-template-columns: repeat(4, 100px) repeat(2,50px);
+    grid-template-rows: repeat(1,150px) repeat(2,100px);
+}
+
+.child{
+    background-color: #b3d4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #1d1d1d;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.child-two{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.site{
+ display: grid;
+    grid-template-columns: 300px 300px 300px;/*меняем располежения а счет именения навания*/
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 10px;
+    grid-template-areas: "header blog blog"
+                         "article blog blog"
+                         "footer blog blog";
+}
+
+.site>div{
+    background-color: #b3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #1d1d1d;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.header{
+    grid-area: header;
+}
+
+.blog{
+    grid-area: blog;
+}
+
+.article{
+    grid-area: article;
+}
