@@ -118,6 +118,7 @@ img{
     padding: 10px 30px;
     border-radius: 50px;
     border: none;
+    line-height: 24px;
 }
 
 .button--call{
@@ -127,6 +128,12 @@ img{
 .button--substribe{
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     font-weight: bold;
+}
+
+.button--biography{
+    background: transparent;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
 }
 
 .section{
@@ -379,24 +386,41 @@ img{
 
 .programms__left{
     text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .programms__left .week{
     padding-right: 60px;
 }
 
+.programms__left .week:not(:last-child){
+    margin-bottom: 87px;
+}
+
 .programms__right .week{
     padding-left: 60px;
+    margin-top: 95px;
 }
 
 .programms__tree{
     width: 6px;
-    height: 100%;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
+
 .week{
     max-width: 288px;
+    position: relative;
+}
+
+.week::before{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 48px;
 }
 
 .week__desc{
@@ -404,9 +428,106 @@ img{
     line-height: 160%;
     color: #ffffff;
     margin-top: 15px;
-
 }
 
+.programms__left .week::before{
+    right: 0;
+}
+
+.programms__right .week::before{
+    left: 0;
+}
+
+.mentors{
+    margin-top: 215px;
+    margin-bottom: 150px;
+}
+
+.mentors__wrapper{
+    padding-left: 29px;
+    padding-right: 29px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mentor{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.mentor__photo{
+    margin-bottom: 40px;
+}
+
+.mentor__name{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.mentor__position{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.substribe{
+    margin-bottom: 106px;
+}
+
+.substribe__subtitle{
+    margin-top: 30px;
+}
+
+.substribe__subtitle span{
+    display: block;
+    text-align: center;
+}
+
+.substribe__form{
+    max-width: 492px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.substribe__email{
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 30px;
+    background: transparent;
+    border: none;
+}
+
+.substribe__email::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contats__contact{
+    display: block;
+    padding: 13px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50%;
+}
+
+.contats__contact:not(:last-child){
+    margin-right: 30px;
+}
 
 @media screen and (max-width: 1700px){
     .section{
@@ -614,7 +735,26 @@ img{
     }
 }
 
+@media screen and (max-width: 930px){
+    .mentors__wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mentor{
+        width: 330px;
+    }
+}
+
 @media screen and (max-width: 767px){
+    .icon{
+        flex-direction: column;
+    }
+
+    .icon__circle{
+        margin-right: 0;
+    }
+
     .first-screen__title{
         font-size: 34px;
     }
@@ -630,6 +770,39 @@ img{
 
     .timer__item{
         margin-right: 0;
+    }
+
+    .programms__left .week{
+        padding-right: 20px;
+    }
+
+    .programms__right .week{
+        padding-left: 20px;
+    }
+
+    .week__desc{
+        font-size: 12px;
+    }
+
+    .week::before{
+        width: 12px;
+    }
+
+    .mentors{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mentors__title{
+        margin-top: -40px;
+    }
+
+    .mentors__wrapper{
+        margin-top: 30px;
+    }
+
+    .mentor{
+        width: 100%;
     }
 }
 
@@ -704,6 +877,19 @@ img{
 
     .partners__item{
         padding: 15px 30px;
+    }
+
+    .substribe__form{
+        flex-direction: column;
+        background: none;
+    }
+
+    .substribe__email{
+        width: 100%;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 50px;
+        margin-bottom: 20px;
     }
 }
 
