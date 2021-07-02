@@ -1,40 +1,24 @@
 @import url('https://fonts.google.com/specimen/Dancing+Script');
 
-body {
+*{
     margin: 0;
+    padding: 0;
+}
+
+body{
     background-image: url("../img/backgr.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    position: relative;
 }
-body:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(45deg, rgba(0,0,0,0), rgba(255,255,255,.8));
-}
-
 header, main, footer{
     max-width: 1920px;
-   }
 
-.logo__company{
-    width: 150px;
-    display: flex;
-    padding-left: 30px;
 }
-
-.name {
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-    padding-left: 35px;
+.topmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
 }
 
 nav {
@@ -58,7 +42,7 @@ nav a {
 .topmenu > li > a {
     position: relative;
     padding: 10px 15px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 1.5em;
     line-height: 1;
     letter-spacing: 3px;
@@ -104,16 +88,34 @@ nav a {
     transform: translate(-50%, 0);
 }
 .submenu a {
-    font-family: 'Dancing Script', serif;
+    font-family: "Dancing Script", serif;
     font-size: 11px;
     letter-spacing: 1px;
     padding: 5px 10px;
-    transition: .2s linear;
+    transition: .3s linear;
 }
-.submenu a:hover {background: #e8e8e8;}
 
+.logo__company{
+    width: 150px;
+    padding-left: 15px;
+}
 
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding-left: 15px;
+}
 
+.service__wrraper{
+    display: block;
+    line-height: 4;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightyellow;
+
+}
 .repairs{
     margin: 30px 80px 30px;
 }
@@ -130,7 +132,8 @@ nav a {
     font-size: 25px;
     justify-content:center;
     display: flex;
-    margin-top: 550px;
+    margin-top: 30px;
+    line-height: 10;
 }
 
 .mobile_wrapper{
@@ -139,33 +142,25 @@ nav a {
 }
 
 .mobile__name{
-    size: 10px;
-    background-color: rgba(215, 215, 215, 0.3);
+    padding: 10px;
+    background-color: white;
 }
 
+.icons{
+    width: 200px;
+}
 
 .about__contacts{
-    font-size: 5px;
-    font-weight: inherit;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 350px;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+    justify-content: right;
+    flex-wrap: wrap;
+    line-height: 5;
+    color: black;
 }
 
-.number{
-    font-weight: bold;
-    font-size: 16px;
-    justify-content: space-between;
+.icon{
+    width: 35px;
 }
 
-.adress{
-    font-weight: bold;
-    font-size: 16px;
-    justify-content: space-between;
-}
-
-.worktime{
-    font-weight: bold;
-    font-size: 16px;
-    justify-content: space-between;
-}
