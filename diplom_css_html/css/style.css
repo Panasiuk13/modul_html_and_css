@@ -6,9 +6,12 @@
 }
 
 body{
+    
     background-image: url("../img/backgr.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #A1A1A1;
 }
 header, main, footer{
     max-width: 1920px;
@@ -95,6 +98,10 @@ nav a {
     transition: .3s linear;
 }
 
+.submenu:hover{
+    background: #c0c0c0;
+}
+
 .logo__company{
     width: 150px;
     padding-left: 15px;
@@ -164,3 +171,152 @@ nav a {
     width: 35px;
 }
 
+.reviews__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__link{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 55px;
+    color: black;
+    }
+
+.autor__photo{
+    border-radius: 70% 70%;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    background-color: black;
+}
+
+
+@media screen and (max-width:975px){
+    .topmenu{
+        padding-left: 150px;
+    }
+
+}
+
+@media screen and (max-width:975px){
+    .topmenu{
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .topmenu{
+        padding-left: 110px;
+    }
+    .mobile__name {
+        width: 180px;
+    }
+    .icons{
+        width: 180px;
+        align-content: center;
+    }
+
+}
+
+@media screen and (max-width: 860px){
+    .repairs__slogan{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .topmenu {
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .topmenu {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .topmenu {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .topmenu {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .topmenu {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .topmenu {
+        padding-left: 40px;
+
+    }
+    .logo{
+      background-position: 50% center;
+    }
+    .logo__company{
+        width: 80px;
+
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .topmenu {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .topmenu {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .topmenu {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .topmenu {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    .mobile__name{
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .icons{
+        display: inline-block;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .topmenu {
+        display: inline-block;
+
+
+
+    }
+
+}
