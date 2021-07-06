@@ -6,14 +6,18 @@
 }
 
 body{
-    
-    background-image: url("../img/backgr.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #A1A1A1;
+    background-color: antiquewhite;
+    }
+
+.screen{
+    width: 50%;
 }
+
 header, main, footer{
+    background-image: url("../img/backgr.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
     max-width: 1920px;
 
 }
@@ -46,9 +50,10 @@ nav a {
     position: relative;
     padding: 10px 15px;
     font-family: "Dancing Script", cursive;
-    font-size: 1.5em;
+    font-size: 24px;
     line-height: 1;
     letter-spacing: 3px;
+    color: white;
 }
 .topmenu > li > a:before {
     content: "";
@@ -92,14 +97,15 @@ nav a {
 }
 .submenu a {
     font-family: "Dancing Script", serif;
-    font-size: 11px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
     padding: 5px 10px;
     transition: .3s linear;
 }
 
 .submenu:hover{
-    background: #c0c0c0;
+    background: rgba(0, 0, 0, 0.34);
 }
 
 .logo__company{
@@ -111,18 +117,30 @@ nav a {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     font-weight: bold;
-    color: black;
+    color: #ffffff;
     padding-left: 15px;
 }
-
-.service__wrraper{
-    display: block;
-    line-height: 4;
-    font-size: 30px;
+.service{
+    font-size: 25px;
     font-weight: bold;
-    color: lightyellow;
-
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
 }
+.service__wrraper{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: black;
+}
+
+.icon8{
+    width: 200px;
+    height: 200px;
+}
+
 .repairs{
     margin: 30px 80px 30px;
 }
@@ -139,36 +157,43 @@ nav a {
     font-size: 25px;
     justify-content:center;
     display: flex;
-    line-height: 10;
+    padding-top: 350px;
     white-space: nowrap;
 }
 
 .mobile_wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .mobile__name{
     padding: 10px;
-    background-color: white;
+
 }
 
 .icons{
     width: 200px;
+    padding-top: 30px;
 }
 
+.icons1{
+    width: 120px;
+    padding-left: 40px;
+}
+
+.contacts__wrraper{
+    padding-top: 300px;
+}
 .about__contacts{
     font-weight: bold;
-    font-size: 22px;
-    display: block;
-    justify-content: right;
-    flex-wrap: wrap;
-    line-height: 5;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
     color: black;
 }
 
 .icon{
-    width: 35px;
+    width: 60px;
 }
 
 .reviews__wrapper{
@@ -196,8 +221,9 @@ nav a {
     border: 1px solid gray;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 2px;
-    background-color: black;
+    background-color: #ffaaa3;
 }
 
 
@@ -233,10 +259,10 @@ nav a {
         padding-left: 40px;
     }
     .mobile__name {
-        width: 180px;
+        width: 175px;
     }
     .icons{
-        width: 180px;
+        width: 175px;
         align-content: center;
     }
 }
@@ -252,11 +278,11 @@ nav a {
         padding-left: 80px;
     }
     .mobile__name {
-        width: 180px;
+        width: 170px;
     }
     .icons{
-        width: 180px;
-        align-content: center;
+        width: 170px;
+
     }
 }
 
@@ -265,11 +291,11 @@ nav a {
         padding-left: 70px;
     }
     .mobile__name {
-        width: 180px;
+        width: 160px;
     }
     .icons{
-        width: 180px;
-        align-content: center;
+        width: 160px;
+
     }
 }
 
@@ -278,11 +304,11 @@ nav a {
         padding-left: 60px;
     }
     .mobile__name {
-        width: 180px;
+        width: 150px;
     }
     .icons{
-        width: 180px;
-        align-content: center;
+        width: 150px;
+
     }
 }
 
@@ -292,11 +318,11 @@ nav a {
         justify-content: space-between;
     }
     .mobile__name {
-        width: 180px;
+        width: 140px;
     }
     .icons{
-        width: 180px;
-        align-content: center;
+        width: 140px;
+
     }
 }
 
@@ -305,11 +331,11 @@ nav a {
         padding-left: 50px;
     }
     .mobile__name {
-        width: 180px;
+        width: 130px;
     }
     .icons{
-        width: 180px;
-        align-content: center;
+        width: 130px;
+
     }
 }
 
@@ -332,11 +358,11 @@ nav a {
         padding-left: 30px;
     }
     .mobile__name{
-        width: 150px;
-        align-items: center;
+        width: 120px;
+
     }
     .icons{
-        width: 100px;
+        width: 120px;
 
     }
 }
@@ -346,12 +372,12 @@ nav a {
         padding-left: 10px;
     }
     .mobile__name{
-        width: 120px;
+        width: 110px;
         display: inline-block;
         justify-content: center;
     }
     .icons{
-        width: 90px;
+        width: 110px;
 
     }
 }
@@ -361,11 +387,11 @@ nav a {
         padding-left: 5px;
     }
     .mobile__name{
-        width: 110px;
+        width: 100px;
 
     }
     .icons{
-        width: 80px;
+        width: 100px;
 
     }
 }
