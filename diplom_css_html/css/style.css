@@ -7,6 +7,7 @@
 
 body{
     background-color: antiquewhite;
+    max-width: 1920px;
     }
 
 .screen{
@@ -120,6 +121,14 @@ nav a {
     color: #ffffff;
     padding-left: 15px;
 }
+
+.our__service{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
 .service{
     font-size: 25px;
     font-weight: bold;
@@ -133,12 +142,13 @@ nav a {
     display: flex;
     justify-content: center;
     padding-top: 150px;
+    margin: 30px 30px;
     color: black;
 }
 
 .icon8{
     width: 200px;
-    height: 200px;
+    padding-left: 50px;
 }
 
 .repairs{
@@ -158,27 +168,29 @@ nav a {
     justify-content:center;
     display: flex;
     padding-top: 350px;
+    padding-bottom: 50px;
     white-space: nowrap;
 }
 
 .mobile_wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .mobile__name{
-    padding: 10px;
-
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    margin: 30px 30px;
+    color: black;
 }
 
 .icons{
-    width: 200px;
+    width: 100px;
     padding-top: 30px;
-}
-
-.icons1{
-    width: 120px;
-    padding-left: 40px;
 }
 
 .contacts__wrraper{
@@ -188,7 +200,7 @@ nav a {
     font-weight: bold;
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: black;
 }
 
@@ -227,9 +239,12 @@ nav a {
 }
 
 
-@media screen and (max-width:975px){
+/*@media screen and (max-width:975px){
     .topmenu{
         padding-left: 150px;
+    }
+    .repairs__slogan{
+
     }
 
 }
