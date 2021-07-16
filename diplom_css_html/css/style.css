@@ -24,7 +24,6 @@ header, main, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav {
@@ -109,7 +108,16 @@ nav a {
 
 .logo__company{
     width: 150px;
-    padding-left: 15px;
+    padding: 15px;
+}
+.logo__company--comments{
+    width: 150px;
+    padding: 15px;
+}
+
+.home{
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 .name {
@@ -117,7 +125,7 @@ nav a {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    padding-left: 15px;
+    margin: 20px;
 }
 
 .our__service{
@@ -132,7 +140,7 @@ nav a {
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    margin-top: 50px;
 }
 .service__wrraper{
     font-size: 20px;
@@ -144,9 +152,10 @@ nav a {
     color: black;
 }
 
-.icon8{
-    width: 200px;
-    padding-left: 50px;
+.icon{
+    width:500px;
+    margin: 10px;
+
 }
 
 .repairs{
@@ -176,19 +185,19 @@ nav a {
     padding: 10px;
 }
 
-.mobile__name{
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-    margin: 30px 30px;
-    color: black;
+.mobile__logo{
+    width: 150px;
+    border-radius: 70%;
+
+}
+
+.phone{
+    width: 250px;
 }
 
 .icons{
-    width: 100px;
-    padding-top: 30px;
+    width: 60px;
+
 }
 
 .contacts__wrraper{
@@ -200,10 +209,6 @@ nav a {
     display: flex;
     justify-content: space-around;
     color: black;
-}
-
-.icon{
-    width: 60px;
 }
 
 .reviews__wrapper{
@@ -219,7 +224,7 @@ nav a {
     }
 
 .autor__photo{
-    border-radius: 70% 70%;
+    border-radius: 50%;
     margin-top: 10px;
 }
 
